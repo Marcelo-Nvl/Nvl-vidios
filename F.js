@@ -1,12 +1,5 @@
 const feed = document.getElementById("feed");
 
-/* VÍDEOS INICIAIS */
-const videos = [
-  "videos/v1.mp4",
-  "videos/v2.mp4",
-  "videos/v3.mp4"
-];
-
 /* OBSERVER (AUTOPLAY VISUAL) */
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
